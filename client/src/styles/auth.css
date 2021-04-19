@@ -1,0 +1,52 @@
+/* Input textbox */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.custom__input,
+#password__input {
+  font-size: 1.5rem;
+}
+.gender__label {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+.MuiButtonBase-root,
+#gender__input,
+.custom__input,
+#password__input {
+  color: white !important;
+}
+.MuiSelect-icon {
+  color: white !important;
+}
+.label__input_password,
+.label__custom_input {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+/* End input textbox */
+.auth__gender_input {
+  flex-direction: row !important;
+}
+.gender__text {
+  color: black !important;
+}
+.auth__page {
+  width: 100%;
+  height: 100vh;
+}
+.button__container {
+  width: 100%;
+}
+
+.input__container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 546px) {
+}

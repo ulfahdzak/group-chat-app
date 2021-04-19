@@ -1,0 +1,51 @@
+.public_chat__container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.public_chat__container .MuiCircularProgress-root {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+}
+
+.public_chat__search {
+  padding-bottom: 1.5rem !important;
+}
+
+.group__card {
+  display: flex;
+  border: 2px solid white !important;
+  width: 18.75rem;
+  padding: 1rem 0.5rem !important;
+  border-radius: 12px !important;
+}
+
+.group__card h1 {
+  text-transform: initial;
+  font-size: 1rem;
+  color: white;
+}
+
+.arow__join__icon {
+  margin-left: auto;
+}
+
+.section__title {
+  margin-top: 3.75rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.section__container {
+  margin-top: 1.25rem !important;
+}
+
+.group__card_container {
+  height: fit-content;
+}
+
+.public_chat__list {
+  height: 25rem;
+  overflow-y: scroll;
+}

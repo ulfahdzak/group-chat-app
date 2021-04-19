@@ -1,0 +1,46 @@
+.chatroom__homepage {
+  width: max-content;
+  overflow-y: hidden;
+}
+.chatroom__container {
+  width: 100%;
+}
+.chatroom__body {
+  position: relative;
+  overflow: hidden;
+  width: 50rem;
+  padding: 2.5rem 5rem 0rem 5rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.chatarea-title {
+  margin-left: 0.5rem;
+  color: white;
+}
+
+.chatarea__header {
+  padding: 0.65rem 0px;
+  width: 100%;
+  border-bottom: 2px solid white;
+}
+
+.chatarea__body {
+  position: relative !important;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 70vh;
+}
+
+.chatarea__input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .chatroom__container {
+    width: max-content;
+  }
+}

@@ -1,0 +1,120 @@
+.menu__container {
+  color: black;
+  margin-bottom: 0.5rem;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+  padding: 0.65rem 0.75rem;
+}
+.menu__text {
+  font-size: 1rem;
+  color: #172026;
+  font-weight: normal;
+  margin-left: 0.45rem;
+}
+.group_member__container {
+  overflow-y: scroll;
+  height: 15rem;
+  width: 30rem;
+}
+.group_member__container::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.group_member__container::-webkit-scrollbar {
+  width: 5px;
+}
+.group_member__container::-webkit-scrollbar-thumb {
+  background-color: #172026;
+  border-radius: 1.5rem;
+}
+
+.group_member__input {
+  margin-top: 1.5rem !important;
+  width: 100%;
+}
+
+.member__username {
+  font-size: 1.5rem;
+  color: #172026;
+}
+.member__email {
+  font-size: 0.85rem;
+  font-weight: normal;
+  color: #172026;
+}
+
+.invite__title {
+  color: #172026;
+  margin-left: 0.25rem;
+  font-size: 1.25rem;
+}
+
+.confirmation__input {
+  width: 100%;
+  border-bottom: 2px solid #172026;
+}
+.modal__leave_title {
+  padding-left: 1.5rem !important;
+}
+.modal__invite_title h2,
+.modal__leave_title h2 {
+  padding: 0px;
+  font-weight: bold;
+  color: #172026;
+}
+.modal__leave_subtitle {
+  color: rgba(0, 0, 0, 0.75) !important;
+}
+
+.modal__leave_cancel {
+  font-weight: bold !important;
+  color: darkred !important;
+}
+
+.modal__invite_cancel {
+  color: darkred !important;
+}
+
+.modal__leave_confirm {
+  color: darkgreen !important;
+}
+
+.modal__invite_confirm {
+  color: darkgreen !important;
+  font-weight: bold !important;
+}
+
+.modal__invite_title {
+  padding-left: 1rem !important;
+}
+.group_info__backdrop {
+  display: flex;
+  outline: none;
+  align-items: center;
+  justify-content: center;
+}
+.group_info__container {
+  outline: none;
+  border-radius: 8px;
+  background-color: white;
+  padding: 1.25rem 1rem 0.75rem 1rem;
+}
+.groups__container {
+  background-color: transparent;
+}
+
+.btn__kick_member .MuiButton-label {
+  color: darkred;
+  font-weight: bold;
+}
+
+.btn__cancel_kick .MuiButton-label {
+  color: #172026;
+}
+
+.group__info_title {
+  color: #172026;
+  font-weight: bold;
+  margin-left: 0.5rem;
+  font-size: 1.25rem;
+}

@@ -1,0 +1,38 @@
+.login__page {
+  width: 100%;
+  height: 100vh;
+}
+
+.app__title {
+  color: royalblue;
+  margin-left: 0.25rem;
+  font-size: 2rem;
+}
+
+.icon__feedback {
+  width: 2rem !important;
+  height: 2rem !important;
+  transform: scaleX(-1);
+  color: royalblue !important;
+}
+
+.app__title::after {
+  content: "";
+  position: absolute;
+  border-radius: 25px;
+  width: 2px;
+  margin-top: 0.45rem;
+  margin-left: 0.25rem;
+  background-color: white;
+  height: 2rem;
+  animation: blink 0.75s ease-in-out infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

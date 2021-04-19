@@ -1,0 +1,30 @@
+.user__picture {
+  margin-top: 0.025rem;
+  margin-right: 0.5rem;
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+}
+
+.bubble__chat {
+  color: #172026;
+  margin-top: 1rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  max-width: 30%;
+}
+
+.user__name {
+  font-size: 1.15rem;
+}
+
+.user__message {
+  margin-top: 0.4rem;
+  padding-left: 0.7rem;
+  font-size: 1rem;
+}
+
+.message__time {
+  color: black;
+  font-weight: bold;
+  font-size: 0.665rem;
+}

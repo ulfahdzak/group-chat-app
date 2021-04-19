@@ -1,0 +1,92 @@
+.group__list {
+  padding: 0px 0.75rem 0px 0px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.sidebar__email {
+  padding: 0.2rem 0.35rem;
+  width: fit-content;
+  border: 1px solid white;
+  border-radius: 25px;
+  font-size: 0.5rem;
+}
+
+.MuiInput-underline:after,
+.MuiInput-underline::before {
+  border-color: white !important;
+}
+
+.chatroom__wrapper {
+  overflow-y: hidden;
+  padding: 0.25rem 0.25rem 0.25rem 0.65rem;
+}
+
+.chatroom__sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  box-shadow: 8px 0px 32px 4px rgba(0, 0, 0, 0.25);
+}
+
+.tools__container,
+.chatroom_title_container {
+  width: 100%;
+}
+
+.MuiInputLabel-filled {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+#group__name {
+  color: white !important;
+}
+
+.group__title {
+  margin-left: 0.65rem;
+  font-size: 1rem;
+}
+
+.group__item {
+  padding: 0.75rem;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 1px solid white;
+}
+.request__item {
+  border-color: rgba(255, 255, 255, 0.5) !important;
+  padding: 0 0.75rem;
+}
+.btn__reject {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.group__item:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.group_public__item:hover {
+  background-color: rgba(255, 255, 255, 0.75);
+  border-color: transparent;
+}
+
+.btn__create_group {
+  border-radius: 0.5rem !important;
+  padding: 0 1.5rem 0 0.75rem !important;
+  border: 2px solid white !important;
+}
+
+.btn__add_group {
+  background-color: transparent !important;
+  border: 2px solid white !important;
+}
+.btn__add_group:hover {
+  background-color: rgba(255, 255, 255, 0.25) !important;
+}
+
+@media only screen and (max-width: 960px) {
+  .chatroom__wrapper {
+    padding: 0rem 0rem 0rem 0.5rem;
+  }
+}
